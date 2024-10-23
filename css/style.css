@@ -1,3 +1,81 @@
 main {
     min-height: calc(100vh - 160px);
+  
   }
+  
+/* General */
+body {
+  background-color: #f5f5f5;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #333;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+/* Estilo del contenedor principal */
+.container {
+  margin-top: 30px;
+}
+
+/* Input y botón de búsqueda */
+#inputBuscar {
+  padding: 10px;
+  font-size: 1.2rem;
+  border: 2px solid #007bff;
+  border-radius: 5px;
+}
+
+#btnBuscar {
+  font-size: 1.1rem;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+/* Tarjetas */
+.card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera para las tarjetas */
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px); /* Efecto de elevación al pasar el ratón */
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover; /* Recorta la imagen para que no se deforme */
+}
+
+.card-title {
+  font-size: 1.3rem;
+  color: #007bff;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #555;
+}
+
+.card-footer {
+  background-color: transparent;
+  border-top: none;
+}
+
+/* Pie de página */
+footer {
+  background-color: #007bff;
+  color: white;
+  padding: 20px 0;
+}
+
+footer a {
+  color: white;
+  text-decoration: underline;
+}
+
+footer p {
+  margin: 0;
+}
